@@ -1,0 +1,21 @@
+_id: req_4efac20195a94477a9ba10a54af9ee5a
+type: Request
+parentId: wrk_586b1e917fb749feb766fea2151a4329
+modified: 1658420958798
+created: 1658420806394
+url: "{{base_url}}/v1/health"
+name: Health Check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658420806394
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
