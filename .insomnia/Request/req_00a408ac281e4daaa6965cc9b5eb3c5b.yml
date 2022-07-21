@@ -1,16 +1,18 @@
 _id: req_00a408ac281e4daaa6965cc9b5eb3c5b
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658420984947
+modified: 1658425083260
 created: 1658420980670
-url: "{{base_url}}/v1/info"
+url: "{{base_url}}/v1/s/info"
 name: Info
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% variable 'access_token' %}"
 metaSortKey: -1658420806344
 isPrivate: false
 settingStoreCookies: true
