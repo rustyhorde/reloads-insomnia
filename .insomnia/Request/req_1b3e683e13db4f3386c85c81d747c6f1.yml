@@ -1,0 +1,32 @@
+_id: req_1b3e683e13db4f3386c85c81d747c6f1
+type: Request
+parentId: wrk_586b1e917fb749feb766fea2151a4329
+modified: 1658435167057
+created: 1658435018002
+url: "{{base_url}}/v1/s/abc123/cartridge"
+name: Cartridge - Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": ".223 Remington",
+    	"short_name": ".223"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d7db852ad52847529470e2ee8f170980
+authentication:
+  type: bearer
+  token: "{% variable 'access_token' %}"
+metaSortKey: -1658435018002
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
