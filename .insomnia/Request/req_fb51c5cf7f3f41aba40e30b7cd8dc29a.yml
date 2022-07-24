@@ -1,19 +1,19 @@
-_id: req_8d6244942b0246a791d13abea302ba32
+_id: req_fb51c5cf7f3f41aba40e30b7cd8dc29a
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658681832777
-created: 1658421721267
-url: "{{base_url}}/v1/s/abc123/loads"
-name: Loads - Read
+modified: 1658681821190
+created: 1658595125809
+url: "{{base_url}}/v1/s/abc123/load/62dd79af5725619c96a5d7ee"
+name: Load - Delete
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{% variable 'access_token' %}"
-metaSortKey: -1658423886790
+metaSortKey: -1658424402482.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

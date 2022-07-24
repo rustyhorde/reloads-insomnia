@@ -1,10 +1,10 @@
-_id: req_8d6244942b0246a791d13abea302ba32
+_id: req_3e3d52abba724f4d82adf81d538eb89b
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658681832777
-created: 1658421721267
-url: "{{base_url}}/v1/s/abc123/loads"
-name: Loads - Read
+modified: 1658681839182
+created: 1658510816634
+url: "{{base_url}}/v1/s/abc123/load/62d9adbd568d7c26cf3d64ce"
+name: Load - Read
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{% variable 'access_token' %}"
-metaSortKey: -1658423886790
+metaSortKey: -1658430483780.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

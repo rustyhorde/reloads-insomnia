@@ -1,28 +1,28 @@
-_id: req_1b3e683e13db4f3386c85c81d747c6f1
+_id: req_f7e6b25d68fc48e3bf1b09bb72d110e6
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658435297633
-created: 1658435018002
-url: "{{base_url}}/v1/s/abc123/cartridge"
-name: Cartridge - Create
+modified: 1658681798801
+created: 1658513559579
+url: "{{base_url}}/v1/s/abc123/load/62dd79af5725619c96a5d7ee"
+name: Load - Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": ".338 Lapua Magnum",
-    	"short_name": ".338 LM"
+    	"count": 50
     }
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_664e38106c5d4c7eb37be577bebb2f44
+    name: Content-Type
     value: application/json
-    id: pair_d7db852ad52847529470e2ee8f170980
+    description: ""
 authentication:
   type: bearer
   token: "{% variable 'access_token' %}"
-metaSortKey: -1658435018002
+metaSortKey: -1658424918174.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
