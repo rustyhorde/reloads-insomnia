@@ -1,0 +1,38 @@
+_id: req_9fc7aa8163b844a4993235eec0f0f9ee
+type: Request
+parentId: wrk_586b1e917fb749feb766fea2151a4329
+modified: 1658760560965
+created: 1658685278721
+url: "{{base_url}}/v1/s/abc123/loads"
+name: Loads - Filter
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9b90b0f060354ef4928493bf59e1fe92
+    name: firearm.manufacturer
+    value: Savage
+    description: ""
+    disabled: false
+  - id: pair_21a43d083e6a49bc8413181eb41075fe
+    name: firearm.cartridge.name
+    value: .338 Lapua Magnum
+    description: ""
+    disabled: true
+  - id: pair_7a23141fcfa34ffaabf38d665eb95e3a
+    name: projections
+    value: firearm,bullet
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% variable 'access_token' %}"
+metaSortKey: -1658422346592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
