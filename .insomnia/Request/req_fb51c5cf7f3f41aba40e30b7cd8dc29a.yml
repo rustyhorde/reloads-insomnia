@@ -1,9 +1,9 @@
 _id: req_fb51c5cf7f3f41aba40e30b7cd8dc29a
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658760585388
+modified: 1658802601075
 created: 1658595125809
-url: "{{base_url}}/v1/s/abc123/load/62dead7b5b7da0be8a5bee9a"
+url: "{{base_url}}/v1/s/{{fid}}/load/62dead7b5b7da0be8a5bee9a"
 name: Load - Delete
 description: ""
 method: DELETE
