@@ -1,9 +1,9 @@
 _id: req_f7e6b25d68fc48e3bf1b09bb72d110e6
 type: Request
 parentId: wrk_586b1e917fb749feb766fea2151a4329
-modified: 1658802600685
+modified: 1658860687247
 created: 1658513559579
-url: "{{base_url}}/v1/s/{{fid}}/load/62d9adbd568d7c26cf3d64ce"
+url: "{{base_url}}/v1/s/{{fid}}/load/62df0c833ad99d4d026294c6"
 name: Load - Update
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"count": 125
+    	"count": 100
     }
 parameters: []
 headers:
